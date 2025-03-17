@@ -11,8 +11,8 @@ This server acts as a middleware between your frontend application and the GitLa
 1. Clone this repository:
 
 ```bash
-git clone <repository-url>
-cd ProxyServerForGitLabService
+git clone https://github.com/Tony-Stark2000/GitLab_proxy_server_1.git
+cd GitLab_proxy_server_1
 ```
 
 2. Install dependencies:
