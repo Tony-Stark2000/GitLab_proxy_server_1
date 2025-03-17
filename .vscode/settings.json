@@ -1,0 +1,77 @@
+{
+    "editor.tabSize": 4,
+    "editor.indentSize": "tabSize",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.addMissingImports": "explicit",
+        "source.organizeImports": "explicit",
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "javascript.format.enable": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.associations": {
+        "*.json": "json",
+        "*.js": "javascript",
+        "*.jsx": "javascriptreact"
+    },
+    "prettier.enable": true,
+    "prettier.endOfLine": "lf",
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "prettier.singleQuote": false,
+    "prettier.bracketSameLine": false,
+    "prettier.trailingComma": "none",
+    "prettier.singleAttributePerLine": true,
+    "prettier.jsxSingleQuote": false,
+    "prettier.arrowParens": "always",
+    "prettier.bracketSpacing": true,
+    "prettier.semi": true,
+    "prettier.printWidth": 100,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        // "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "reactTsScss.autoComplete": true,
+    "reactTsScss.definition": true,
+    "reactTsScss.peekProperties": true,
+    "reactTsScss.cssAutoComplete": true,
+    "reactTsScss.cssDefinitions": true,
+    "reactTsScss.diagnostics": false,
+    "reactTsScss.baseDir": "src",
+    "reactTsScss.cssSyntaxColor": true,
+    "reactTsScss.cleanUpDefs": [
+        "*.module.css",
+        "*.module.scss",
+        "*.module.sass",
+        "*.module.less",
+        "*.module.styl"
+    ],
+    "reactTsScss.references": true,
+    "reactTsScss.codelens": false
+}

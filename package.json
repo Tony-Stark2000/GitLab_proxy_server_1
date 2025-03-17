@@ -1,0 +1,19 @@
+{
+    "name": "gitlab_proxy_server",
+    "version": "1.0.0",
+    "description": "Proxy server for GitLab API requests",
+    "main": "server.js",
+    "scripts": {
+        "start": "node ./server/index.js",
+        "dev": "nodemon ./server/index.js"
+    },
+    "dependencies": {
+        "express": "5.0.1",
+        "axios": "1.8.3",
+        "cors": "2.8.5",
+        "dotenv": "16.4.7"
+    },
+    "devDependencies": {
+        "nodemon": "3.1.9"
+    }
+}
